@@ -1,0 +1,47 @@
+body{
+    background-color: skyblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    background-color: rgb(69, 181, 226);
+    text-align: center;
+    border: 1px black solid;
+    max-width: 350px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+    padding: 20px;
+}
+h1{
+    color: blue;
+}
+#tempInput{
+    text-align: center;
+    font-size: 2em;
+    max-width: 200px;
+    border: 2px black solid;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#subBtn{
+    background-color: rgb(255, 92, 92);
+    margin-top: 15px;
+    font-size: 1.5em;
+    border: 2px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#subBtn:hover{
+    background-color: rgb(255, 0, 0);
+}
+#result{
+    font-weight: bold;
+    font-size: larger;
+    color: rgb(132, 86, 0);
+}
